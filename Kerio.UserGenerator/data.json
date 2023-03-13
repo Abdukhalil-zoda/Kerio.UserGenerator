@@ -1,0 +1,97 @@
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "Users.create",
+  "params": {
+    "users": [
+      {
+        "data": {
+          "rights": {
+            "readConfig": false,
+            "writeConfig": false,
+            "unlockRule": false,
+            "dialRasConnection": false,
+            "connectVpn": false,
+            "useP2p": false
+          },
+          "quota": {
+            "daily": {
+              "enabled": false,
+              "type": "QuotaBoth",
+              "limit": {
+                "value": 0,
+                "units": "GigaBytes"
+              }
+            },
+            "weekly": {
+              "enabled": false,
+              "type": "QuotaBoth",
+              "limit": {
+                "value": 0,
+                "units": "GigaBytes"
+              }
+            },
+            "monthly": {
+              "enabled": false,
+              "type": "QuotaBoth",
+              "limit": {
+                "value": 0,
+                "units": "GigaBytes"
+              }
+            },
+            "blockTraffic": false,
+            "notifyUser": false
+          },
+          "wwwFilter": {
+            "javaApplet": false,
+            "embedObject": false,
+            "script": false,
+            "popup": false,
+            "referer": false
+          },
+          "language": "detect"
+        },
+        "credentials": {
+          "userName": "%USERNAME%",
+          "password": "1",
+          "passwordChanged": true
+        },
+        "fullName": "%FULLNAME%",
+        "description": "",
+        "email": "",
+        "authType": "Internal",
+        "useTemplate": true,
+        "adEnabled": true,
+        "localEnabled": true,
+        "groups": [
+          {
+            "id": "84328f92-42a6-2c4d-96ad-2da97c80dff2"
+          }
+        ],
+        "autoLogin": {
+          "addresses": {
+            "enabled": false,
+            "value": [
+              ""
+            ]
+          },
+          "addressGroup": {
+            "enabled": false,
+            "id": ""
+          },
+          "macAddresses": {
+            "enabled": false,
+            "value": [
+              ""
+            ]
+          }
+        },
+        "vpnAddress": {
+          "enabled": false,
+          "value": ""
+        }
+      }
+    ],
+    "domainId": "local"
+  }
+}
